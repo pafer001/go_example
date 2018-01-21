@@ -1,4 +1,4 @@
-package _struct
+package main
 
 import "fmt"
 
@@ -10,6 +10,7 @@ type Vertex2 struct {
 func main()  {
 	v := Vertex2{1, 3}
 	p := &v
+	fmt.Println(p)
 	p.X = 1e9
 	fmt.Println(v)
 }

@@ -1,4 +1,4 @@
-package _struct
+package main
 
 import "fmt"
 
@@ -9,5 +9,7 @@ type Vertex struct {
 
 func main()  {
 
-	fmt.Println(Vertex{1, 2})
+	vertex := Vertex{1, 2}
+	fmt.Println(vertex)
+	fmt.Println(vertex.X, vertex.Y)
 }

@@ -1,4 +1,4 @@
-package _struct
+package main
 
 import "fmt"
 
@@ -16,6 +16,6 @@ var (
 
 func main()  {
 
-	fmt.Println(v1, p, v3, v3, p.X)
+	fmt.Println(v1, p, v2, v3, p.X)
 }
 
